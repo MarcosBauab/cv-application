@@ -18,7 +18,7 @@ export const Container = styled.section`
     }
 
     div.profSkill{
-        padding: 0 20px 0 20px;
+        padding: 0 15%;
 
         display: flex;
         flex-direction: column;

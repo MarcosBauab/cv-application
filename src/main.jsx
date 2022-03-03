@@ -36,13 +36,13 @@ const GlobalStyle = createGlobalStyle`
   /* Track */
   ::-webkit-scrollbar-track {
       background: #dddddd;
-      border-radius: 4px;
   }
-
   /* Handle */
   ::-webkit-scrollbar-thumb {
-      background: linear-gradient(to bottom, #BED3C800, #010101); 
-      border-radius: 2px;
+    background: linear-gradient(to bottom, #BED3C800, #010101); 
+  }
+  ::-webkit-scrollbar-thumb:hover {
+      border: 1px solid #010101;
   }
 `
 
