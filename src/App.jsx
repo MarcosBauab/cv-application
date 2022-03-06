@@ -4,6 +4,7 @@ import Profile from './components/Profile/Profile'
 import tema from '../themes.json'
 import React from 'react'
 import Experience from './components/Experience/Experience'
+import Links from './components/Links/Links'
 
 const ContainerGeral = styled.div`
 
@@ -43,6 +44,7 @@ function App() {
         <Header />
         <Profile />
         <Experience />
+        <Links />
       </div>
       
     </ContainerGeral>
