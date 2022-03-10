@@ -14,26 +14,28 @@ const HeadHeader = styled.section`
         display: flex;
         justify-content: space-between;
 
-
         a{
             text-decoration: none;
+
         }
+        
     }
 
     main{
         display: flex;
-        width: 50%;
         height: 90%;
 
+        margin-top: 15px;
 
         align-items: center;
 
     }
-    main p{
+    main span{
         padding-top: 10px;
         font-family: 'Fontinha';
         font-size: 5rem;
         font-weight: bold;
+
     }
 `
 export default HeadHeader

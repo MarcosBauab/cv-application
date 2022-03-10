@@ -39,7 +39,7 @@ function App() {
 
   return (
     <ContainerGeral>
-      
+
       <div className="wrapper">
         <Header />
         <Profile />
