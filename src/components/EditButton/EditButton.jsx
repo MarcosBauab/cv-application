@@ -5,7 +5,7 @@ import FormEdit from '../FormEdit/FormEdit';
 
 import { Container } from './styles';
 
-function EditButton({ mostrar, onEdit, valorAtual, maiusculo}) {
+function EditButton({ mostrar, onEdit, valorAtual, maiusculo, txtarea, add}) {
 
   const [mostraForm, setMostraForm] = useState(false)
 
@@ -25,7 +25,7 @@ function EditButton({ mostrar, onEdit, valorAtual, maiusculo}) {
               
           </button>
 
-          {mostraForm && <FormEdit edit={onEdit} valor={valorAtual} mostraForm={setMostraForm} maiusculo={maiusculo}/>}
+          {mostraForm && <FormEdit txtarea={txtarea} edit={onEdit} valor={valorAtual} mostraForm={setMostraForm} maiusculo={maiusculo} add={add}/>}
 
       </Container>
   );

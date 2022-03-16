@@ -24,7 +24,7 @@ export const Container = styled.section`
         flex-direction: column;
         gap: 20px;
 
-        p{
+        div.descp{
             font-family: 'Fontinha';
             font-size: 1.5rem;
         }
