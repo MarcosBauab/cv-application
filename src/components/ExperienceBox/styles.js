@@ -8,6 +8,8 @@ export const Container = styled.div`
 
     padding: 0 15%;
 
+    margin-bottom: 15px;
+
     p.experienceName{
         font-size: 1.5rem;
     }

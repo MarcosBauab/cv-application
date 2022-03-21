@@ -39,10 +39,10 @@ const GlobalStyle = createGlobalStyle`
   }
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: linear-gradient(to bottom, #BED3C800, #010101); 
+    background: #010101;
   }
   ::-webkit-scrollbar-thumb:hover {
-      border: 1px solid #010101;
+      border: 1px solid white;
   }
 `
 

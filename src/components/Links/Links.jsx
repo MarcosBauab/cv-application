@@ -1,14 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
+import AddLinks from '../AddLinks/AddLinks';
 
 import { Container } from './styles';
 
 function Links() {
+
+  const [arrLinks, setArrLinks] = useState([])
+
   return (
       <Container>
           <p>Marcos Bauab</p>
-          <a href="http://" target="_blank" rel="noopener noreferrer">Link1</a>
-          <a href="http://" target="_blank" rel="noopener noreferrer">Link2</a>
-          <a href="http://" target="_blank" rel="noopener noreferrer">Link3</a>
+          
+          <AddLinks links={arrLinks} theEnd={(parm) => {
+            setArrLinks(parm)
+          }}/>
       </Container>
   );
 }
