@@ -6,7 +6,7 @@ import HeadHeader from './HeaderStyle';
 function Header() {
 
   const [visivel, setVisivel] = useState('')
-  const [numero, setNumero] = useState('60983824455')
+  const [numero, setNumero] = useState('(61)98720-2974')
   const [email, setEmail] = useState('youremail@hey.com')
   const [name, setName] = useState('YOUR NAME')
 

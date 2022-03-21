@@ -17,4 +17,16 @@ export const Container = styled.div`
     justify-content: space-around;
 
     font-weight: bold;
+
+
+    a{
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+    svg{
+        cursor: pointer;
+        transition: .2s;
+
+    }
 `;
